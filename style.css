@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+.post {
+    width: 90vw;
+    height: 90vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.post-votes{
+    text-align: center;
+    font-size: 20px;
+    color:dodgerblue;
+}
