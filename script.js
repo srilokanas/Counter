@@ -88,7 +88,8 @@ function resetTimer() {
 
 /* Counter */
 
-var data = parseInt(document.getElementById("counting").textContent);
+var data = 0;
+document.getElementById("counting").innerText = data;
 
 function increment() {
 	data = data + 1;
