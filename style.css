@@ -1,17 +1,51 @@
-* {
-    box-sizing: border-box;
+body {
+    background: grey;
+    color: white;
 }
-
-.post {
+button {
+    width: 100px;
+    height: 30px;
+    border: 3px soldi white;
+    border-radius: 50px;
+    background: grey;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+#main {
     width: 90vw;
     height: 90vh;
     display: grid;
-    justify-content: center;
+    grid-template-columns: 1fr;
+    justify-items: center;
     align-items: center;
 }
 
-.post-votes{
+h1, h2 {
     text-align: center;
-    font-size: 20px;
-    color:dodgerblue;
+}
+#buttons {
+    display: inline;
+    justify-items: center;
+    align-items: center;
+}
+#buttons li {
+    display: inline;
+    padding-left: 10px;
+}
+
+#increment {
+    background-color: green;
+}
+
+#increment:hover {
+    background-color: greenyellow;
+}
+
+#decrement {
+    background-color: red;
+}
+
+#decrement:hover {
+    background-color: orangered;
 }
